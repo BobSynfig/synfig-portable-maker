@@ -37,8 +37,9 @@ You can package directly from your own Windows or from a [Windows 10 development
 
 ### Configuration
 Edit _MakePortable.bat_ and change the parameters according your needs
+
 |Parameter|Role|
-|-|-|
+|---------|----|
 |SYNFIG_VERSION|1.2.2, 1.3.11-pre5 or 1.3.10-seterrormode|
 |PA_BASE|depends where your PortableApps platform has been installed|
 |USE_COMPACTOR|optional (more time to build, less disk space once installed)|
