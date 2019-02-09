@@ -1,6 +1,6 @@
 # Synfig Portable Maker
-This script permits to create easily a PortableApps package of SynfigStudio
-It works only for Synfig x64 (1.2.2, 1.3.11-pre5 and 1.3.10-seterrormode currently)
+This script permits to create easily a PortableApps package of SynfigStudio<br />
+It works only for Synfig x64 currently<br />
 You can package directly from your own Windows or from a [Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines)
 
 ## Required Apps and Files
@@ -22,6 +22,7 @@ You can package directly from your own Windows or from a [Windows 10 development
 |**1.2.2**|https://downloads.synfig.org/stable/SynfigStudio-1.2.2-18.09.14-win64-286f1.zip|
 |**1.3.11-pre5**|https://downloads.synfig.org/almost-1.3.11/SynfigStudio-1.3.11-pre5-64bit-2365f.zip|
 |**1.3.10-seterrormode**|https://downloads.synfig.org/almost-1.3.11/SynfigStudio-1.3.10-testing-19.02.07-win64-47da2-seterrormode.zip|
+|**1.3.11**|https://downloads.synfig.org/almost-1.3.11/1.3.11/SynfigStudio-1.3.11-testing-19.02.09-win64-9583a.zip|
 
 ## Steps
 
@@ -40,11 +41,11 @@ Edit _MakePortable.bat_ and change the parameters according your needs
 
 |Parameter|Role|
 |---------|----|
-|SYNFIG_VERSION|1.2.2, 1.3.11-pre5 or 1.3.10-seterrormode|
-|PA_BASE|depends where your PortableApps platform has been installed|
-|USE_COMPACTOR|optional (more time to build, less disk space once installed)|
+|SYNFIG_VERSION|1.2.2, 1.3.11-pre5,1.3.10-seterrormode or 1.3.11|
+|PA_BASE       |depends where your PortableApps platform has been installed|
+|USE_COMPACTOR |optional (more time to build, less disk space once installed)|
 |MAKE_INSTALLER|optional (_Build contains an uncompressed portable version after execution of the script)|
-|SHOW_CONSOLE|optional - how console at runtime|
+|SHOW_CONSOLE  |optional - how console at runtime|
 
 ### Execution of the script
 Open a console as Admin (Win+X)
