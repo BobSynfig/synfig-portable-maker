@@ -3,8 +3,8 @@
 :: ===========================================================================
 :: ----- Modify according your needs -----
 
-:: 1.2.2, 1.3.11-pre5, 1.3.10-seterrormode (case sensistive)
-set SYNFIG_VERSION=1.2.2
+:: 1.2.2, 1.3.11-pre5, 1.3.10-seterrormode, 1.3.11 (case sensistive)
+set SYNFIG_VERSION=1.3.11
 
 :: ! No "", no space,  no \ at the end !
 set PA_BASE=c:\PortableApps\PortableApps
@@ -31,6 +31,9 @@ IF "%SYNFIG_VERSION%"=="1.3.11-pre5" (
 )
 IF "%SYNFIG_VERSION%"=="1.3.10-seterrormode" (
   set ZIPFILE=SynfigStudio-1.3.10-testing-19.02.07-win64-47da2-seterrormode.zip
+)
+IF "%SYNFIG_VERSION%"=="1.3.11" (
+  set ZIPFILE=SynfigStudio-1.3.11-testing-19.02.09-win64-9583a.zip
 )
 
 set PA_7ZIP=%PA_BASE%\7-ZipPortable\App\7-Zip64\7z.exe
